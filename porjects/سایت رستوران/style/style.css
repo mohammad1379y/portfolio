@@ -1,0 +1,221 @@
+@media all and (max-width:599px) {
+    .container {
+        width: 100%;
+    }
+
+    .logodiv,
+    .menudiv {
+        width: 50%;
+    }
+
+    .col-4,.col-2 {
+        width: 100%;
+    }
+}
+
+
+@media all and (min-width: 600px) and (max-width: 979px) {
+    .container {
+        width: 600px;
+    }
+
+    .logodiv {
+        width: 20%;
+    }
+
+    .menudiv {
+        width: 80%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-2 {
+        width: 50%;
+    }
+}
+
+
+@media all and (min-width: 980px) {
+    .container {
+        width: 980px;
+    }
+
+    .logodiv {
+        width: 20%;
+    }
+
+    .menudiv {
+        width: 80%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-2 {
+        width: 50%;
+    }
+}
+
+div,
+header,
+footer,
+section,
+article,
+nav,
+aside {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-size: 13.5px;
+    font-family: sans-serif;
+}
+
+.row {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.picback {
+    background: url('../image/fastfood.jpg') no-repeat center center;
+    background-size: cover;
+    height: 85vh;
+    color: white;
+    text-align: center;
+}
+
+.picback div {
+    font-size: 30px;
+    margin-top: 25vh;
+}
+
+.learnmore {
+    display: inline-block;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 10px;
+    transition: all 1s;
+}
+
+.learnmore:hover {
+    background-color: #fff;
+    color: #000;
+
+}
+
+.container {
+    position: relative;
+    margin: 0px auto;
+    /* background: darkred; */
+}
+
+.logodiv,
+.menudiv {
+    position: relative;
+    float: left;
+}
+
+.logodiv {
+    padding: 9px 15px;
+    color: rgb(88, 86, 86);
+    font-size: 30px;
+}
+
+.titlediv {
+    text-align: center;
+    margin: 6vh auto;
+    font-size: 25px;
+
+}
+
+.titlediv span {
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+}
+
+.col-4,.col-2 {
+    position: relative;
+    float: left;
+    /* width: 33.33%; */
+}
+.foodbox img{
+    width: 100%;
+}
+.foodbox>div{
+    /* padding: 10px; */
+    width: 98%;
+    margin: 10px 1%;
+}
+/* ------2-----
+.foodbox{
+    padding: 5px;
+}
+----------- */
+.grayback{
+    background-color: rgba(174, 173, 173, 0.7);
+}
+.menubox{
+    float: left;
+    width: 100%;
+    margin: 10px auto;
+}
+/* team */
+.team img{
+    width: 100%;
+}
+.team>div{
+    /* padding: 10px; */
+    width: 98%;
+    margin: 10px 1%;
+}
+.text-center{
+    text-align: center;
+}
+/*  */
+.container-form-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-form-input input,textarea{
+    outline: none;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 2rem;
+    text-align: right;
+    border-radius: 10px;
+}
+.botton{
+    display: inline-block;
+    background-color: orange;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.2rem;
+    text-decoration: none;
+}
+.botton:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+.botton:active{
+    transform: translate(0.2rem,0.2rem);
+}
+/* footer */
+footer{
+    width: 100vw;
+    height:30vh ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.bg-dark{
+    background: #333;
+    color: #fff;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ثبت نام</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    
+    <button class="btn-success p-3 m-3 back"><a href="../index.html">بازگشت</a></button>
+
+    <div class="login-page">
+        <div class="form">
+                <input type="text" placeholder="username" class="username" onkeydown="usernameValidation()" />
+                <span class="username-validation">Must Contain 12 Character (Min)</span>
+                <input type="password" placeholder="password" class="password" onkeydown="passwordValidation()" />
+                <span class="password-validation">Must Contain 8 Character (Min)</span>
+                <button>login</button>
+                <p class="message">Not registered? <a>Create an account</a></p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
